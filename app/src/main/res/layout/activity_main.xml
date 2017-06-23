@@ -25,6 +25,7 @@
     <TextView
         android:id="@+id/numbers"
         style="@style/CategoryStyle"
+        android:layout_height="88dp"
         android:background="@color/category_numbers"
         android:text="@string/category_numbers"
         android:onClick="clickNumbers"/>
@@ -32,6 +33,7 @@
     <TextView
         android:id="@+id/family"
         style="@style/CategoryStyle"
+        android:layout_height="88dp"
         android:background="@color/category_family"
         android:text="@string/category_family" />
 
@@ -39,11 +41,13 @@
         android:id="@+id/colors"
         style="@style/CategoryStyle"
         android:background="@color/category_colors"
+        android:layout_height="88dp"
         android:text="@string/category_colors" />
 
     <TextView
         android:id="@+id/phrases"
         style="@style/CategoryStyle"
+        android:layout_height="88dp"
         android:background="@color/category_phrases"
         android:text="@string/category_phrases" />
 
